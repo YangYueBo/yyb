@@ -1,0 +1,99 @@
+
+.header_max{
+	width: 100%;
+	background: #333333;
+	z-index: 500;
+}
+.header_max .header{
+	width: 90.22403%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header_max .header h1{
+	 width: 170px;
+	 margin-top: 20px;
+}
+.header_max .header .min_1000px{
+	display: none;
+}
+.header_max .header .max_999px{
+	width: 61.3995%;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	padding-right: 49px;
+}
+.header_max .header .max_999px h2{
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: normal;
+	height: 80px;
+	line-height: 80px;
+	font-family: "宋体";
+}
+.header_max .header .max_999px p{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #666666;
+	border-radius:5px ;
+	text-indent: 16px;
+	font-size: 14px;
+	color: #FFFFFF;
+	position: relative;
+	margin-top: 18px;
+	cursor: pointer;
+}
+.header_max .header .max_999px p:hover{
+	background: #666666;
+}
+.header_max .header .max_999px p span{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	right: 7px;
+	top: -3px;
+}
+.nav{
+	width: 100%;
+	border-top: 3px solid #CCCCCC;
+	border-bottom: 3px solid #CCCCCC;
+	background: #333333;
+	display: flex;
+	justify-content:space-between;
+}
+.nav li{
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 52px;
+	line-height: 52px;
+	cursor: pointer;
+}
+.nav li:hover{
+	background: #5c5c5c;
+}
+.nav li:hover a{
+	color: #FA9634;
+}
+.nav li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.nav .gray{
+	background: #5c5c5c;
+	color: #FA9634;
+}
+.nav .gray>a{
+	color: #FA9634;
+}
+.header_max .header .nav_max_480px{
+	display: none;
+}

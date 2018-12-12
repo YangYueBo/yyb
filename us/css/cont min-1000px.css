@@ -1,0 +1,38 @@
+.wrapper_max{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.wrapper_max .wrapper{
+	width: 87.7654%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 2px;
+	margin-bottom: 170px;
+	text-align: center;
+}
+.wrapper_max .wrapper h3{
+	height: 62px;
+	line-height: 62px;
+	font-size: 18px;
+	color: #fa9634;
+	text-align: center;
+}
+.wrapper_max .wrapper span{
+	display: block;
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+.wrapper_max .wrapper p{
+	font-size: 15px;
+	color: #000000;
+	margin-bottom: 42px;
+	text-align: center;
+}
+.wrapper_max .wrapper img{
+	width: 100%;
+	max-width: 670px;
+}

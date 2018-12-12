@@ -1,0 +1,111 @@
+.wrapper_max{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.wrapper_max .wrapper{
+	width: 96.6731%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 42px;
+	margin-bottom: 170px;
+}
+.wrapper_max .wrapper ul{
+	width: 26.7%;
+	border-right: 1px solid #bababa;
+	float: left;
+	box-sizing: border-box;
+}
+.wrapper_max .wrapper ul li{
+	width: 93.1818%;
+	text-indent: 65px;
+	height: 75px;
+	line-height: 75px;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper ul li:first-of-type{
+	background: url(../images/service_03.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper ul li:first-of-type:hover{
+	background: url(../images/service_04.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper ul li:nth-of-type(2){
+	background: url(../images/service_05.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper ul li:nth-of-type(2):hover{
+	background: url(../images/service_06.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper ul li:nth-of-type(3){
+	background: url(../images/service_08.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper ul li:nth-of-type(3):hover{
+	background: url(../images/service_09.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper ul li:nth-of-type(4){
+	background: url(../images/service_10.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper ul li:nth-of-type(4):hover{
+	background: url(../images/service_10.jpg)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+
+.wrapper_max .wrapper ul li a{
+	font-size: 22px;
+	color: #222222;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wrapper_max .wrapper article{
+	width: 73.3%;
+	float: left;
+	padding-left: 6.89655%;
+	box-sizing: border-box;
+}
+.wrapper_max .wrapper article h3{
+	font-size: 18px;
+	color: #fa9634;
+	height: 50px;
+	line-height: 50px;
+}
+.wrapper_max .wrapper article h3 span{
+	font-size: 16px;
+	color: #000;
+	font-weight: normal;
+}
+.wrapper_max .wrapper article h4{
+	font-size: 16px;
+	color: #000;
+	line-height: 31px;
+}
+.wrapper_max .wrapper article h4 p{
+	font-size: 16px;
+	color: #000000;
+}
+.wrapper_max .wrapper article small{
+	display: inline-block;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	padding-left: 40px;
+}
+.wrapper_max .wrapper article p{
+	font-size: 16px;
+	color: #000000;
+	line-height: 30px;
+
+}
+.wrapper_max .wrapper article img{
+	width: 100%;
+}
+.wrapper_max .wrapper .spare{
+	display: none;
+}

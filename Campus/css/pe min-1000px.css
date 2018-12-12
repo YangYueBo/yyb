@@ -1,0 +1,315 @@
+.wrapper_max{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.wrapper_max .wrapper{
+	width: 96.6731%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 42px;
+}
+.wrapper_max .wrapper>ul{
+	width: 26.7%;
+	border-right: 1px solid #bababa;
+	float: left;
+	box-sizing: border-box;
+}
+.wrapper_max .wrapper>ul>li{
+	width: 93.1818%;
+	text-indent: 65px;
+	height: 75px;
+	line-height: 75px;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:first-of-type{
+	background: url(../images/xsjx_1.gif)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:first-of-type:hover{
+	background: url(../images/xsjx.gif)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(2){
+	background: url(../images/hy_1.gif)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(2):hover{
+	background: url(../images/hy.gif)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(3){
+	background: url(../images/ydh_1.gif)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(3):hover{
+	background: url(../images/ydh.gif)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(4){
+	background: url(../images/dxs_.gif)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(4):hover{
+	background: url(../images/dxs.gif)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(5){
+	background: url(../images/hj_1.gif)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(5):hover{
+	background: url(../images/hj_1.gif)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(6){
+	background: url(../images/sdwh_1.gif)no-repeat 15px center;
+	border-bottom: 4px solid #FFFFFF;
+}
+.wrapper_max .wrapper>ul>li:nth-of-type(6):hover{
+	background: url(../images/sdwh.gif)no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.wrapper_max .wrapper>ul>li>a{
+	font-size: 22px;
+	color: #222222;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wrapper_max .wrapper article{
+	width: 73.3%;
+	float: left;
+	padding-left: 3.89655%;
+	box-sizing: border-box;
+	position: relative;
+	padding-top: 510px;
+}
+.wrapper_max .wrapper article h3{
+	font-size: 18px;
+	color: #fa9634;
+	height: 50px;
+	line-height: 50px;
+}
+.wrapper_max .wrapper article p{
+	font-size: 16px;
+	color: #000000;
+	line-height: 30px;
+	text-indent: 33px;
+}
+.wrapper_max .wrapper article img{
+	width: 100%;
+}
+.wrapper_max .wrapper .spare{
+	display: none;
+}
+
+
+
+/*轮播图开始*/
+.m2{
+	display: none;
+}
+.m{ 
+	width: 100%;
+	max-width: 690px; 
+	height:490px;
+	margin-left: auto; 
+	margin-right: auto; 
+	position: absolute;
+	left: 3%;
+	top: 0px;
+}
+.m img{ 
+		width:100%;
+}
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+.bx-wrapper{
+	position: relative;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	z-index: 100;
+	position: absolute;
+	bottom: -86px;
+	left:0;
+	display: flex;
+	width: 100%;
+	height: 90px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+.bx-wrapper .bx-pager .bx-pager-item{
+	width: 20%;
+	background-color:#1c1c1c ;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+.bx-wrapper .bx-pager .bx-pager-item>a{
+	display: block;
+	width: 80%;
+	height: 80%;
+	text-indent: -99999999999999999px;
+	opacity: .6;
+}
+.bx-wrapper .bx-pager .bx-pager-item:first-of-type>a{
+	background-image: url(../images/gkhjby_1.jpg); 
+	background-position:center center;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+.bx-wrapper .bx-pager .bx-pager-item:nth-of-type(2)>a{
+	background-image: url(../images/gkhjby_2.jpg); 
+	background-position:center center;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+.bx-wrapper .bx-pager .bx-pager-item:nth-of-type(3)>a{
+	background-image: url(../images/gkhjby_3.jpg); 
+	background-position:center center;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+.bx-wrapper .bx-pager .bx-pager-item:nth-of-type(4)>a{
+	background-image: url(../images/gkhjby_4.jpg); 
+	background-position:center center;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+.bx-wrapper .bx-pager .bx-pager-item:nth-of-type(5)>a{
+	background-image: url(../images/gkhjby_5.jpg); 
+	background-position:center center;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	opacity: 1;
+}
+
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(images/controls.png) no-repeat -43px -32px;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+/*轮播图结束*/

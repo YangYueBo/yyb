@@ -1,0 +1,508 @@
+/*轮播图开始*/
+.m{ 
+	width: 100%; 
+	height:auto;
+	margin-left: auto; 
+	margin-right: auto; 
+
+}
+.m li{
+	height: 170px;
+}
+.m img{ 
+		width:100%;
+		height: 100%;
+}
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+.bx-wrapper{
+	position: relative;
+	
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	z-index: 100;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #fff;
+	text-indent: -9999px;
+	display: block;
+	width: 40px;
+	height: 5px;
+	margin: 0 5px;
+	outline: 0;
+	opacity: .6;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #ff7c00;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(images/controls.png) no-repeat -43px -32px;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+/*轮播图结束*/
+
+/*学院服务 开始*/
+.min_max{
+	width: 100%;
+}
+.min_max .min{
+	width: 97.0468%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.min_max .service h2{
+	font-size: 22px;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 22px;
+}
+.min_max .service>ul{
+	display: flex;
+	margin-top: 18px;
+}
+.min_max .service>ul>li{
+	width: 25%;
+	
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: .5s;
+	border-bottom: 6px solid #fff;
+	padding-bottom: 10px;
+}
+.min_max .service>ul>li:first-of-type{
+	background: url(../images/service_1_1.jpg)no-repeat center top;
+}
+.min_max .service>ul>li:first-of-type:hover{
+	background: url(../images/service_1_2.jpg)no-repeat center top;
+	border-bottom: 6px solid #FA9634;
+}
+.min_max .service>ul>li:nth-of-type(2){
+	background: url(../images/service_2_1.jpg)no-repeat center top;
+}
+.min_max .service>ul>li:nth-of-type(2):hover{
+	background: url(../images/service_2_2.jpg)no-repeat center top;
+	border-bottom: 6px solid #FA9634;
+}
+.min_max .service>ul>li:nth-of-type(3){
+	background: url(../images/service_3_1.jpg)no-repeat center top;
+}
+.min_max .service>ul>li:nth-of-type(3):hover{
+	background: url(../images/service_3_2.jpg)no-repeat center top;
+	border-bottom: 6px solid #FA9634;
+}
+.min_max .service>ul>li:nth-of-type(4){
+	background: url(../images/service_4_1.jpg)no-repeat center top;
+}
+.min_max .service>ul>li:nth-of-type(4):hover{
+	background: url(../images/service_4_2.jpg)no-repeat center top;
+	border-bottom: 6px solid #FA9634;
+}
+.min_max .service>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 55px;
+	box-sizing: border-box;
+}
+.min_max .service>ul>li h4{
+	font-size: 16px;
+	color: #222222;
+	height: 25px;
+	line-height: 25px;
+	display: none;
+}
+.min_max .service>ul>li .max-761px{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	font-weight: normal;
+}
+.min_max .service>ul>li p{
+	font-size: 12px;
+	color: #888888;
+	margin-top: 14px;
+	display: none;
+}
+/*学院服务 结束*/
+
+/*课程设置 开始*/
+.min_max .min .curriculum h2{
+	font-size: 22px;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 22px;
+}
+.min_max .min .curriculum>ul{
+	margin-top: 17px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.min_max .min .curriculum>ul>li{
+	width: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	position: relative;
+	cursor: pointer;
+}
+
+.min_max .min .curriculum>ul>li>img{
+	width: 50%;
+}
+.min_max .min .curriculum>ul>li>p{
+	font-size: 17px;
+	color: #000000;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 11px;
+}
+.min_max .min .curriculum>ul>li .show{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 30px 20px; 
+	box-sizing: border-box;
+	text-align: left;
+	height: 200px;
+	transition: .5s;
+	opacity: 0;
+}
+.min_max .min .curriculum>ul>li .show h3{
+	font-size: 17px;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+}
+.min_max .min .curriculum>ul>li:nth-of-type(2n-1) .show{
+	background: #90C166;
+}
+.min_max .min .curriculum>ul>li:nth-of-type(2n) .show{
+	background: #FA9634;
+}
+.min_max .min .curriculum>ul>li .show>p{
+	font-size: 14px;
+	color: #FFFFFF;
+}
+/*课程设置 结束*/
+
+/*校园风采 开始*/
+.min_max .min .style{
+	position: relative;
+}
+.min_max .min .style>a{
+	position: absolute;
+	right: 0;
+	top: 15px;
+	font-size: 12px;
+	color: #fc973f;
+	
+}
+.min_max .min .style h2{
+	font-size: 27px;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 22px;
+}
+.min_max .min .style ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 34px;
+}
+.min_max .min .style>ul>li{
+	width: 45.3131%;
+}
+
+.min_max .min .style ul li>a{
+	width: 100%;
+}
+.min_max .min .style ul li>a>img{
+	width: 100%;
+}
+.min_max .min .style ul li>h4{
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.min_max .min .style ul li>h4>a{
+	font-size: 17px;
+	font-weight: normal;
+	color: #333333;
+	transition: .5s;
+}
+.min_max .min .style ul li>h4>a:hover{
+	color: #FA9634;
+}
+.min_max .min .style ul li>p{
+	font-size: 12px;
+	color: #888888;
+	display: none;
+}
+input{
+	display: block;
+	width:108px;
+	height: 34px;
+	line-height: 34px;
+	background: #fa9634;
+	border-radius:4px ;
+	margin:0 auto;
+	cursor: pointer;
+	border: 0;
+	color: #FFFFFF;
+	margin-top: 15px;
+}
+/*校园风采 结束*/
+
+/*学生作品 开始*/
+.min_max .min .works h2{
+	font-size: 22px;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 22px;
+}
+.min_max .min .works ul{
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.min_max .min .works ul li{
+	width: 31.8604%;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.min_max .min .works ul li img{
+	width: 100%;
+	height: 100%;
+}
+.min_max .min .works ul li div{
+	display: none;
+}
+.min_max .min .works ul li div h4{
+	width: 100%;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+.min_max .min .works ul li div p{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+/*学生作品 结束*/
+
+/*明星学子 开始*/
+.min_max{
+	margin-bottom: 30px;
+}
+.min_max .min .star h2{
+	font-size: 22px;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 22px;
+}
+.min_max .min .star ul{
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.min_max .min .star ul li{
+	width: 32.44%;
+	position: relative;
+	margin-bottom: 10px;
+}
+.min_max .min .star ul li img{
+	width: 100%;
+	height: 100%;
+}
+.min_max .min .star ul li div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	transition: .5s;
+	cursor: pointer;
+	background: #90C166;
+	opacity: 0;
+	display: none;
+}
+.min_max .min .star ul li div P{
+	width: 100%;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.min_max .min .star ul li div span{
+	font-size: 26px;
+	color: #FFFFFF;
+}
+
+/*明星学子 结束*/
+
+/*就业单位 开始*/
+.min_max .min .unit h2{
+	font-size: 35px;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 35px;
+}
+.min_max .min .unit ul{
+	margin-top: 36px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.min_max .min .unit ul li{
+	width: 31.8604%;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.min_max .min .unit ul li img{
+	width: 100%;
+	height: 100%;
+}
+/*就业单位 结束*/
+
+.max_480_h2,.hide,.hide3,.max_480_h4{
+	display: none;
+}
